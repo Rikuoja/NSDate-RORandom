@@ -29,7 +29,7 @@
 
 + (NSInteger)randomNumberFrom:(NSInteger)lowest to:(NSInteger)highest
 {
-    return arc4random_uniform(highest) + lowest;
+    return arc4random_uniform((u_int32_t)highest) + lowest;
 }
 
 @end
