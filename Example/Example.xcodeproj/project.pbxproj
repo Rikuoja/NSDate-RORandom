@@ -19,6 +19,7 @@
 		C29698C4195DDF7D00947D81 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29698AC195DDF7C00947D81 /* UIKit.framework */; };
 		C29698CC195DDF7D00947D81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C29698CA195DDF7D00947D81 /* InfoPlist.strings */; };
 		C29698CE195DDF7D00947D81 /* ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C29698CD195DDF7D00947D81 /* ExampleTests.m */; };
+		C29698D9195DDFB400947D81 /* NSDate+KBSRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = C29698D8195DDFB400947D81 /* NSDate+KBSRandom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		C29698C9195DDF7D00947D81 /* ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		C29698CB195DDF7D00947D81 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C29698CD195DDF7D00947D81 /* ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExampleTests.m; sourceTree = "<group>"; };
+		C29698D7195DDFB400947D81 /* NSDate+KBSRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSDate+KBSRandom.h"; path = "../NSDate+KBSRandom.h"; sourceTree = "<group>"; };
+		C29698D8195DDFB400947D81 /* NSDate+KBSRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSDate+KBSRandom.m"; path = "../NSDate+KBSRandom.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +80,8 @@
 		C296989C195DDF7C00947D81 = {
 			isa = PBXGroup;
 			children = (
+				C29698D7195DDFB400947D81 /* NSDate+KBSRandom.h */,
+				C29698D8195DDFB400947D81 /* NSDate+KBSRandom.m */,
 				C29698AE195DDF7D00947D81 /* Example */,
 				C29698C7195DDF7D00947D81 /* ExampleTests */,
 				C29698A7195DDF7C00947D81 /* Frameworks */,
@@ -242,6 +247,7 @@
 			files = (
 				C29698B5195DDF7D00947D81 /* main.m in Sources */,
 				C29698B9195DDF7D00947D81 /* KBSAppDelegate.m in Sources */,
+				C29698D9195DDFB400947D81 /* NSDate+KBSRandom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
