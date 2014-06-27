@@ -6,4 +6,6 @@
 
 @interface NSDate (KBSRandom)
 
++ (NSDate *)kbs_randomDate;
+
 @end
