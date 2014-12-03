@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = 'NSDate-KBSRandom'
-  s.version      = '0.1.0'
+  s.version      = '0.2.0'
   s.summary      = 'A simple NSDate category for creating random dates'
   s.homepage     = 'https://github.com/Keithbsmiley/NSDate-KBSRandom'
   s.license      = 'MIT'
