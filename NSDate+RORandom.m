@@ -1,15 +1,15 @@
 //
-//  NSDate+KBSRandom.m
+//  NSDate+RORandom.m
 //
 //  MIT License
 //  Created by Keith Smiley, edited by Riku Oja
 //
 
-#import "NSDate+KBSRandom.h"
+#import "NSDate+RORandom.h"
 
-@implementation NSDate (KBSRandom)
+@implementation NSDate (RORandom)
 
-+ (NSDate *)kbs_randomDate
++ (NSDate *)ro_randomDate
 {
     NSCalendar *calendar = [NSCalendar currentCalendar];
     NSDateComponents *dateComponents = [[NSDateComponents alloc] init];
@@ -23,7 +23,7 @@
     return [calendar dateFromComponents:dateComponents];
 }
 
-+ (NSDate *)kbs_randomDateFromDate:(NSDate *)firstDate uptoDate:(NSDate *) lastDate; {
++ (NSDate *)ro_randomDateFromDate:(NSDate *)firstDate uptoDate:(NSDate *) lastDate; {
     //the idea is to provide realistic random dates between two given dates
     //the distribution of the dates doesn't need to be even, so each component is just selected randomly given the constraints
     NSCalendar *calendar = [NSCalendar currentCalendar];
